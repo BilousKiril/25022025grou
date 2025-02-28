@@ -6,7 +6,7 @@ on:
 
 
 jobs:
-  welcome.script:
+ welcome-script:
     runs-on: ubuntu-latest
     steps:
       - name: Welcome part
