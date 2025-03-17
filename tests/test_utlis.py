@@ -1,4 +1,4 @@
-from utlis import add_two_numbers
+from utils.utlis import add_two_numbers
 import pytest
 
 

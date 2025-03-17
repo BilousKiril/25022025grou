@@ -1,7 +1,7 @@
 PHONY: test
 test:
 	echo 'test started'
-	pytest . -v
+	set PYTHONPATH =. && python -m pytest . -v
 
 
 
